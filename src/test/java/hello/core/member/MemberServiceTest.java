@@ -7,22 +7,22 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
-
-    @Test
-    void join() {
-        Member newMember = new Member(1L, "memberA", Grade.VIP);
-
-        memberService.join(newMember);
-
-        Member findMember = memberService.findMember(newMember.getId());
-
-        System.out.println("newMember = " + newMember.getName());
-        System.out.println("findMember = " + findMember.getName());
-
-        assertThat(newMember.getName()).isEqualTo(findMember.getName());
-
-    }
+//    MemberService memberService = new MemberServiceImpl();
+//
+//    @Test
+//    void join() {
+//        Member newMember = new Member(1L, "memberA", Grade.VIP);
+//
+//        memberService.join(newMember);
+//
+//        Member findMember = memberService.findMember(newMember.getId());
+//
+//        System.out.println("newMember = " + newMember.getName());
+//        System.out.println("findMember = " + findMember.getName());
+//
+//        assertThat(newMember.getName()).isEqualTo(findMember.getName());
+//
+//    }
 
 
 
